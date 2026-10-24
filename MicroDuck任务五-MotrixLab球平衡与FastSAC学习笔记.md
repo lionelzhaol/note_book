@@ -172,6 +172,4 @@ mxlab export-onnx run_dir=<run目录> output=<输出目录>/task05_policy.onnx
 
 **学习结论：** 先问“策略能看到什么”，再问“数据如何用于学习”，最后用独立评估判断“是否学会”。课程最有价值的是两条实现路线的对照；建议明确观测信息、smoke预热与成功判据，避免把换框架、出视频误写成算法优势。
 
-**公开检查：** 正文与配图已检查，未发现个人路径、机器名、邮箱、内网地址或凭据；提交使用GitHub隐私邮箱。配图来自本机实验，MicroDuck与MotrixLab资产许可仍归各上游约束。扫描只辅助检查，不代表绝对无泄漏保证，也未改写历史提交。
-
 **来源：** [Task01教程](https://github.com/datawhalechina/every-embodied/tree/a04dcfa31cf11a1a1115628ba107d9de0af38d52/16-专题组队学习/05-MicroDuck运动策略与任务开发专题/01-任务资料/01-MicroDuck篮球平衡强化学习)、[Task05教程](https://github.com/datawhalechina/every-embodied/tree/a04dcfa31cf11a1a1115628ba107d9de0af38d52/16-专题组队学习/05-MicroDuck运动策略与任务开发专题/01-任务资料/05-MotrixLab-MicroDuck球平衡与FastSAC)、[本次固定MotrixLab源码](https://github.com/Motphys/MotrixLab/tree/24796cff1c00591bd327378df93461e1c4a9f89c)。
