@@ -152,8 +152,4 @@ Notebook 06的社区路线是**climber＋get-up双模型**，通过`switch_pair`
 
 完成了Notebook保存输出、两种GIF、BPU报告、调度源码和验收函数的交叉阅读；本机验证关闭BPU分支，并通过6项无板测试。没有重新训练、编译HBM、连接RDK或执行实体机器人控制。阅读摘要留在本机`outputs/task07_20261030/review_summary.json`，不上传含个人路径的原始Notebook输出。
 
-**学习心得：** 从“模型能跑”转向判断“在哪跑、谁算动作、证据属于哪一次运行”。多策略调度既依赖模型接口一致，也依赖状态管理；能切换的设计与实际可靠完成切换，需要分别验证。
-
-**课程反馈：** 无板阅读路线降低了入门门槛。建议同步旧离线说明与新版在线输出，明确缓存策略默认值，分开CPU ONNX与BPU HBM示例，并补充一份带模型哈希和时间线的连续换任务报告。
-
 **资料入口：** [固定版本Notebook 07](https://github.com/datawhalechina/every-embodied/blob/a04dcfa31cf11a1a1115628ba107d9de0af38d52/16-专题组队学习/05-MicroDuck运动策略与任务开发专题/03-Notebook/07_RDK网页与多策略_BPU验收.ipynb)、[Notebook运行与部署说明](https://github.com/datawhalechina/every-embodied/blob/a04dcfa31cf11a1a1115628ba107d9de0af38d52/16-专题组队学习/05-MicroDuck运动策略与任务开发专题/03-Notebook/README.md)、[Task07完整教程](https://github.com/datawhalechina/every-embodied/tree/a04dcfa31cf11a1a1115628ba107d9de0af38d52/16-专题组队学习/05-MicroDuck运动策略与任务开发专题/01-任务资料/07-RDK端侧与网页部署)。
